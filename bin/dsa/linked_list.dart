@@ -205,10 +205,12 @@ void main() {
   print("\nFinal List:");
   list.forEach(print);
 }*/
+
 /*
 insertAfterPosition(int position,LinkedList list,Node newNode){
   list.elementAt(position-1).insertAfter(newNode);
 }*/
+
 void addElementAfterPosition(LinkedList list, int position,Node newNode) {
   if(list.isNotEmpty){
     if(position<=list.length && position>=0){
@@ -221,6 +223,7 @@ void addElementAfterPosition(LinkedList list, int position,Node newNode) {
     print("List Null");
   }
 }
+
 /*
 insertBeforePosition(int position,LinkedList list,Node newNode){
   list.elementAt(position-1).insertBefore(newNode);
